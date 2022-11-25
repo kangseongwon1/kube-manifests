@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: k8s
-        image: ksw7734/docker/k8s:41
+        image: ksw7734/docker:41
         ports:
           - containerPort: 8080
