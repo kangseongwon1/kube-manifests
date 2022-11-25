@@ -9,10 +9,8 @@ spec:
   selector:
     matchLabels:
       app: k8s
-  strategy: {}
   template:
     metadata:
-      creationTimestamp: null
       labels:
         app: k8s
     spec:
